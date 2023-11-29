@@ -238,7 +238,7 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
---- !u!1 &778812135
+--- !u!1 &823618568
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -246,8 +246,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 778812137}
-  - component: {fileID: 778812136}
+  - component: {fileID: 823618570}
+  - component: {fileID: 823618569}
   m_Layer: 0
   m_Name: GSCutout
   m_TagString: Untagged
@@ -255,13 +255,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &778812136
+--- !u!114 &823618569
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 778812135}
+  m_GameObject: {fileID: 823618568}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2c57a1c501bd05549ae157cc474bd4c4, type: 3}
@@ -269,18 +269,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Type: 0
   m_Invert: 0
---- !u!4 &778812137
+--- !u!4 &823618570
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 778812135}
+  m_GameObject: {fileID: 823618568}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.9493766, z: 0.8942953}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 0.6239612, y: 0.59237415, z: 0.5580056}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1609192435}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -450,7 +450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c12d929a7f62c48adbe9ff45c9a33ff0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Asset: {fileID: 11400000, guid: 5aca6b93096d8dd42b02d50f39882f0a, type: 2}
+  m_Asset: {fileID: 11400000, guid: be2e096c068be8345b3d77727e96ce92, type: 2}
   m_SplatScale: 1
   m_OpacityScale: 1
   m_SHOrder: 3
@@ -459,7 +459,8 @@ MonoBehaviour:
   m_RenderMode: 0
   m_PointDisplaySize: 3
   m_Cutouts:
-  - {fileID: 778812136}
+  - {fileID: 0}
+  - {fileID: 823618569}
   m_ShaderSplats: {fileID: 4800000, guid: ed800126ae8844a67aad1974ddddd59c, type: 3}
   m_ShaderComposite: {fileID: 4800000, guid: 7e184af7d01193a408eb916d8acafff9, type: 3}
   m_ShaderDebugPoints: {fileID: 4800000, guid: b44409fc67214394f8f47e4e2648425e, type: 3}
@@ -478,7 +479,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: -1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 778812137}
+  - {fileID: 823618570}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &1694015171
@@ -510,7 +511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6525cf1654d984d469b1050a7698f0dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  splatCutout: {fileID: 778812135}
+  splatCutout: {fileID: 823618568}
 --- !u!4 &1694015173
 Transform:
   m_ObjectHideFlags: 0
